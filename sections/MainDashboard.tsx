@@ -68,7 +68,7 @@ const MainDashboard = (): React.JSX.Element => {
     )}
     </div>
 
-    {tableData?.length ? <div className='p-3 overflow-x-auto h-screen hover:bg-inherit'>
+    {tableData?.length ? <div className='p-3 overflow-auto h-screen hover:bg-inherit'>
         <table className='w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400'>
         <TableHead handleFunction={(value)=>setOrderBy(value)}/>
         <TableBody tableData={tableData} />

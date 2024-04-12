@@ -23,7 +23,7 @@ interface props{
 function TableBody({tableData}:props): React.JSX.Element {
 
   return (
-    <tbody className="text-center">
+    <tbody className="overflow-auto h-screen text-center">
       {
         tableData?.length ? 
         tableData.map((el, index)=>(
