@@ -6,7 +6,7 @@
 .pnp.js
 .yarn/install-state.gz
 .env
-# /utils/urls.ts
+/utils/urls.ts
 
 # testing
 /coverage
